@@ -1,3 +1,5 @@
+package day1;
+
 import java.util.Arrays;
 
 public class CustomMethods<T> { // T: Dynamic Type =======> works with multiple different types (non-primitives)

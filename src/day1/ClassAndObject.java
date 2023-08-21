@@ -1,6 +1,6 @@
-import java.time.Clock;
+package day1;
+
 import java.time.LocalDate;
-import java.time.ZoneId;
 
 
 class Car {
@@ -43,7 +43,7 @@ class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "day1.Person{" +
                 "name='" + name + '\'' +
                 ", gender=" + gender +
                 ", DOB=" + DOB +
@@ -88,7 +88,7 @@ public class ClassAndObject {
 
 
         /*
-        Person person4 = null;
+        day1.Person person4 = null;
         person4.name = "James";
         person4.gender = 'M';
 
